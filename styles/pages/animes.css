@@ -188,7 +188,7 @@ textarea {
     width: 400px;
     height: 312px;
     position: relative;
-    background-image: url(/images/searchArea/animes/Op-cover-mobile.jpg);
+    background-image: url(../../images/searchArea/animes/Op-cover-mobile.jpg);
     background-size: 400px;
     background-repeat: no-repeat;
   }
