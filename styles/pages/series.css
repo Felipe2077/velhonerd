@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  #series {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: 324px;
+    position: relative;
+    background-image: url(../../images/searchArea/series/series-cover-mobile.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
