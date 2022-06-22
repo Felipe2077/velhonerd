@@ -181,7 +181,7 @@ textarea {
       rgba(19, 19, 31, 0) 99.99%
     );
   }
-  .search-area-cover {
+  #animes {
     display: flex;
     align-items: center;
     justify-content: center;
