@@ -1,0 +1,78 @@
+:root {
+  --color-P1: #8257e6;
+  --color-lighter: #ffffff;
+  --color-neutral1: #fefbfb;
+  --color-neutral2: #c4c4c4;
+  --color-dark1: #13131f;
+  --color-dark2: #282830;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.news-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.news-title {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 2rem;
+  color: var(--color-lighter);
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+
+.news-subtitle {
+  font-family: "Inter", sans-serif;
+  color: var(--color-neutral2);
+  font-weight: 500;
+  line-height: 55px;
+  font-size: 1.5rem;
+}
+.news-date {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  color: var(--color-neutral2);
+}
+.news-body {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.news-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--color-neutral2);
+  line-height: 40px;
+}
+
+@media (max-width: 768px) {
+  .news-title {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .news-subtitle {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .news-date {
+    font-size: 0.75rem;
+  }
+  .news-text {
+    font-size: 0.875rem;
+    line-height: 19.6px;
+  }
+  .news-body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

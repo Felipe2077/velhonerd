@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --color-P1: #8257e6;
+  --color-neutral1: #fefbfb;
+  --color-neutral2: #c4c4c4;
+  --color-dark1: #13131f;
+  --color-dark2: #282830;
+}
+
+.logo-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-P1);
+}
+
+.header-menu-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-neutral2);
+}
+.header-menu-selected-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-neutral1);
+}
+
+.header-menu-login-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-neutral1);
+}
+
+.news-title-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: var(--color-neutral1);
+}
+.news-subheading-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: var(--color-neutral2);
+}
+.news-date-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  color: var(--color-neutral2);
+}
+.footer-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--color-neutral2);
+}

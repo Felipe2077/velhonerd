@@ -1,0 +1,12 @@
+@import url(./global/global.css);
+@import url(./global/typography.css);
+@import url(./global/reset.css);
+@import url(./index-sections/header.css);
+@import url(./index-sections/intro.css);
+@import url(./index-sections/topArticles.css);
+@import url(./index-sections/mainArticles.css);
+@import url(./components/article.css);
+@import url(./index-sections/recent.css);
+@import url(./index-sections/footer.css);
+@import url(./pages/news.css);
+@import url(./pages/animes.css);

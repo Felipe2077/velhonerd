@@ -1,0 +1,32 @@
+:root {
+  --color-P1: #8257e6;
+  --color-neutral1: #fefbfb;
+  --color-neutral2: #c4c4c4;
+  --color-dark1: #13131f;
+  --color-dark2: #282830;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.intro h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--color-neutral1);
+  max-width: 15ch;
+  line-height: 3.8rem;
+}
+.intro h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-neutral2);
+  max-width: 42ch;
+  line-height: 2rem;
+}
