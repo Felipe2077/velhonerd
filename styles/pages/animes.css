@@ -134,14 +134,14 @@ textarea {
       rgba(19, 19, 31, 0) 99.99%
     );
   }
-  .search-area-cover {
+  #animes {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     max-width: 100%;
     height: 324px;
     position: relative;
-    background-image: url(/images/searchArea/animes/Op-cover-mobile.jpg);
+    background-image: url(../../images/searchArea/animes/Op-cover-mobile.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
