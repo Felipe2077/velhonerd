@@ -1,0 +1,94 @@
+:root {
+  --color-P1: #8257e6;
+  --color-neutral1: #fefbfb;
+  --color-neutral2: #c4c4c4;
+  --color-neutral3: #989898;
+  --color-lighter: #ffffff;
+  --color-dark1: #13131f;
+  --color-dark2: #282830;
+}
+
+/*font-family: "Lexend Deca", sans-serif;
+  font-family: "Inter", sans-serif;
+*/
+
+.error-area {
+  color: var(--color-lighter);
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.error-area-text {
+  max-width: 50ch;
+}
+.error-area h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  margin-bottom: 17px;
+}
+.error-area p {
+  font-family: "Inter", sans-serif;
+  line-height: 34px;
+  margin-bottom: 46px;
+  font-size: 1.25rem;
+  color: var(--color-neutral2);
+}
+.error-area button {
+  font-size: 1.125rem;
+  background-color: var(--color-P1);
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.error-image-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+.error-image-area p {
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: var(--color-neutral2);
+}
+@media (max-width: 900px) {
+  .error-area-text {
+    max-width: 40ch;
+  }
+  .error-area h1 {
+    font-size: 2.5rem;
+    line-height: 60px;
+    margin-bottom: 17px;
+  }
+  .error-area p {
+    font-size: 1.1rem;
+  }
+  .error-image-area p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .error-area {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .error-area h1 {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 17px;
+  }
+  .error-area p {
+    line-height: 25px;
+    margin-bottom: 46px;
+    font-size: 1rem;
+  }
+  .error-image-area p {
+    font-size: 1rem;
+  }
+  .error-area button {
+    font-size: 1rem;
+  }
+}
