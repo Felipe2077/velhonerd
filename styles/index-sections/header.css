@@ -62,7 +62,7 @@
   }
   .header-menu-area-mobile {
     display: flex;
-    z-index: 9999;
+    z-index: 1000;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
