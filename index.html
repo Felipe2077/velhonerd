@@ -20,7 +20,7 @@
           <li class="header-menu-item header-menu-text"><a href="./pages/animes.html" class="menu-item">Animes</a></li>
           <li class="header-menu-item header-menu-text"><a href="./pages/games.html" class="menu-item">Games</a></li>
         </ul>
-        <button><a class="header-btn" href="#">Minha Conta</a></button>
+        <button><a class="header-btn" href="#" data-modal="abrir">Minha Conta</a></button>
       </div>
       <div class="hamburguer-menu"><img src="./images/menu-hamb.png" alt="menu de navegação"></div>
     </div>
@@ -259,8 +259,20 @@
       </li>
     </ul>
   </footer>
-  <script src="./script/menu-btn.js"></script>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">E-mail</label>
+        <input type="text" form="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" form="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
 
+  <script type="module" src="./script/script.js"></script>
 </body>
 
 </html>
